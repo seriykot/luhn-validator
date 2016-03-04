@@ -1,4 +1,4 @@
 # luhn-validator
-Simple PHP script to calculate a Luhn checksum using Luhn Alogirthm
+Simple PHP script to validate a number using the Luhn Algorithm
 
 Author: Sergey Cheban
