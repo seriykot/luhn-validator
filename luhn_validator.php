@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Luhn.php';
+include_once 'LuhnAlgorithm.php';
 
 /*
  * This PHP script will check the validity of a number using the Luhn Algorithm
@@ -18,8 +18,11 @@ if (trim($input) == 'exit') {
     echo "EXITING!\n";
     exit;
 } else {
-    $luhn = new Luhn();
-    echo "$input" . " is " . ($luhn->validate(substr($input, 0, -1), substr($input, -1, 1)) ? 'valid!' : 'invalid');
+    $luhn = new LuhnAlgorithm(); 
+    echo "$input" . " is " . ($luhn->validateNumber($input, substr($input, -1, 1)) ? 'valid!' : 'invalid');
 }
 
-?>
+function hexToDecimal($input) 
+{
+    
+}
