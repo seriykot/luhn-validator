@@ -4,8 +4,6 @@ include_once 'LuhnAlgorithm.php';
 
 /*
  * This PHP script will check the validity of a number using the Luhn Algorithm
- * This script uses a Luhn PHP Class created by Rolands Kusins
- * Luhn PHP Class - http://www.phpclasses.org/browse/file/51066.html
  * 
  * @author Sergey Cheban
  */
